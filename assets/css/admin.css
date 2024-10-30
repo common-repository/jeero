@@ -1,0 +1,94 @@
+body.jeero_page_jeero-imports .jeero-field-message dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+body.jeero_page_jeero-imports .jeero-field-message dl dt {
+  flex: 0 0 200px;
+}
+body.jeero_page_jeero-imports .jeero-field-message dl dd {
+  flex: 0 0 calc(100% - 200px);
+  margin-left: 0;
+}
+body.jeero_page_jeero-imports .jeero-template-example pre {
+  padding: 3px 5px 2px 5px;
+  margin: 0 1px;
+  background: #f0f0f1;
+  background: rgba(0, 0, 0, 0.07);
+  font-size: 13px;
+  font-family: Consolas,Monaco,monospace;
+  direction: ltr;
+  unicode-bidi: embed;
+  -moz-tab-size: 2;
+    -o-tab-size: 2;
+       tab-size: 2;
+}
+body.jeero_page_jeero-imports .CodeMirror {
+  height: auto;
+}
+body.jeero_page_jeero-imports .jeero-field-post_fields table,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table {
+  width: 100%;
+  table-layout: fixed;
+}
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr th,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr th,
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr td,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr td {
+  width: 100%;
+  padding: 0 10px 15px 0;
+  vertical-align: top;
+}
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr th.name,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr th.name,
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr td.name,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr td.name {
+  width: 200px;
+}
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr th.name input,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr th.name input,
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr td.name input,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr td.name input {
+  max-width: 100%;
+}
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr th.actions,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr th.actions,
+body.jeero_page_jeero-imports .jeero-field-post_fields table tr td.actions,
+body.jeero_page_jeero-imports .jeero-field-custom_fields table tr td.actions {
+  width: 100px;
+  padding-right: 0;
+}
+body.jeero_page_jeero-debug #jeero_debug_content {
+  table-layout: fixed;
+}
+#jeero_footprint .inside {
+  margin: 0;
+  padding: 6px 0 0 0;
+}
+#jeero_footprint .inside .created,
+#jeero_footprint .inside .last_update {
+  padding: 6px 10px 8px;
+}
+#jeero_footprint .inside .created:before,
+#jeero_footprint .inside .last_update:before {
+  font: normal 20px/1 dashicons;
+  speak: never;
+  display: inline-block;
+  margin-left: -1px;
+  padding-right: 3px;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+  color: #8c8f94;
+}
+#jeero_footprint .inside .created:before {
+  content: "\f344";
+}
+#jeero_footprint .inside .last_update:before {
+  content: "\f321";
+}
+#jeero_footprint .inside .actions {
+  padding: 10px;
+  clear: both;
+  border-top: 1px solid #dcdcde;
+  background: #f6f7f7;
+}
+/*# sourceMappingURL=admin.css.map */
